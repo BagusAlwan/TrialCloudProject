@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js",
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.588.0",
+    "@aws-sdk/client-s3": "^3.592.0",
+    "@aws-sdk/credential-providers": "^3.592.0",
+    "@aws-sdk/lib-storage": "^3.592.0",
+    "aws-sdk": "^2.1631.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2",
+    "openai": "^4.47.3",
+    "vue-audio-visual": "^3.0.7"
+  },
+  "devDependencies": {
+    "transformers": "^3.1.0"
+  }
+}
